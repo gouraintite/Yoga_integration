@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<script src="https://cdn.tailwindcss.com"></script>
+	<style type="text/css">
+	@font-face {
+		font-family: Alef;
+		src: url('font/Alef/Alef-Regular.ttf');
+	}
+	*{
+		font-family: Alef;
+	}
+	</style>
+	<script>
+	    tailwind.config = {
+	      theme: {
+	        extend: {
+	          colors: {
+	            violet1: '#F4E9FF',
+	            violet2: '#604F7C'
+	          }
+	        }
+	      }
+	    }
+    </script> 
+	<title>Yoga | sketch_inté</title>
+</head>
+<body class=" pt-[2rem] px-[4rem]">
+	<header>
+		<nav>
+			<div class="flex h-16 items-center ">
+				<div class="flex-1 w-1/6">
+					<img src="img/logo.png" class="w-1/3">
+				</div>
+				<div class="flex justify-end w-2/3 text-slate-800">
+					<div class="flex justify-around w-[350px] text-lg">
+						<a href="#">Home</a>
+						<a href="#">How it works</a>
+						<a href="#">FAQs</a>
+						<a href="#">Package</a>
+					</div>
+				</div>
+				<div class="flex-1 text-end text-xl w-1/6">
+					<a href="#" class="transition duration-300 ease-in-out px-8 py-2 bg-white ring-1 ring-violet2 text-violet-900 rounded-md hover:text-white hover:bg-violet2">LOGIN</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section class="flex bg-violet1 mt-2 rounded-2xl h-[480px]">
+			<div class="text_side w-1/2 pt-4">
+				<div class="p-20">
+					<p class="leading-snug text-5xl font-bold text-violet2">Train your body and mind through yoga </p>
+					<p class="leading-snug tracking-wider text-2xl pt-12 text-violet2">Structured yoga sessions or classes with skilled instructors.Get the best guidance online.</p>
+					<p class="mt-12">					
+						<a href="#" class="transition duration-200 ease-in-out px-8 py-2 bg-violet2 text-white text-violet-900 rounded-md hover:bg-white hover:text-violet2 hover:border-0 hover:shadow-xl">EXPLORE MORE</a>
+					</p>
+				</div>
+				
+			</div>
+			<div class="img_side w-1/2 mt-2">
+				<i class="pl-[490px] text-sm text-slate-500">by CodeHunter 254</i>
+				<div class="mt-[-30px] h-full bg-[url('img/machine.png')] bg-contain bg-no-repeat bg-center">
+					<img src="img/main.png" class="w-1/2 pt-12 mx-auto">
+				</div>
+			</div>
+		</section>
+		<section class="my-12">
+			<p class="text-violet2 font-mono font-semibold text-3xl w-[120px] flex justify-between"><span>&lt;</span><span>&gt;</span></p>
+
+			<div class="flex w-full h-[230px] mx-6 my-12">
+				<div class="flex-1 w-1/3 bg-[url('img/form1.png')] bg-no-repeat h-full">
+					<p class="leading-snug tracking-wider text-2xl pt-40 text-slate-600 text-end font-bold">Hatha Yoga</p>
+				</div>
+				<div class="w-[600px] mx-4 shrink bg-[url('img/form2.png')] bg-no-repeat h-full">
+					<p class="leading-snug tracking-wider text-2xl pr-12 pt-40 text-slate-600 text-end font-bold">Power Yoga</p>
+				</div>
+				<div class="flex-1 w-[50px] px-4 px-9">
+					<p class="leading-widest text-5xl font-bold text-violet2 mb-1">Our Services</p>
+					<hr class="h-1 bg-slate-300" />
+					<p class="leading-snug tracking-wider text-lg pt-4 text-violet2">And many more well trained courses conducted by world’s best trainers.</p>
+					<p class="mt-12">
+
+				</div>
+			</div>
+		</section>
+		<section class="flex mt-2 rounded-2xl h-[500px]">
+			<div class="img_side w-1/2 mt-2">
+				<div class="mt-[-30px] h-full bg-[url('img/main.png')] bg-contain bg-no-repeat bg-center">
+					
+				</div>
+			</div>
+			<div class="text_side w-1/2 pt-4">
+				<div class="p-20">
+					<p class="leading-snug first-letter:text-6xl text-5xl font-bold text-violet2">Submit for more</p>
+					<form class="mt-12">
+					  <label class="block">
+					    <span class="block text-lg font-medium text-slate-700">Email<span class="text-red-400">*</span></span>
+					    <input type="email" placeholder="hunterxhunter@fan.dev"class="peer mt-1 block w-full px-3 py-3 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-violet2 focus:ring-2 focus:ring-violet1"/>
+					    <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
+					      Please provide a valid email address.
+					    </p>
+					  </label>
+					  <label class="block">
+					    <span class="block text-lg font-medium text-slate-700">Username</span>
+					    <input type="text" placeholder="CodeHunter254" class="mt-1 block w-full px-3 py-3 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+					      focus:outline-none focus:border-violet2 focus:ring-2 focus:ring-violet1
+					    "/>
+					  </label>
+					<button type="Submit" class="mt-12">					
+						<a href="#" class="transition duration-200 ease-in-out px-8 py-2 bg-violet2 text-white text-violet-900 rounded-md hover:bg-white hover:text-violet2 hover:border-0 shadow-xl">SUBMIT</a>
+					</button>
+					</form>
+				</div>
+				
+			</div>			
+		</section>
+	</main>
+	<footer>
+		<hr />
+		<nav>
+			<div class="flex h-16 items-center ">
+				<div class="flex-1 w-1/6">
+					<img src="img/logo.png" class="w-1/3">
+				</div>
+				<div class="flex justify-end w-2/3 text-slate-800">
+					<div class="flex justify-around w-[350px] text-lg">
+						<a href="#">Home</a>
+						<a href="#">How it works</a>
+						<a href="#">FAQs</a>
+						<a href="#">Package</a>
+					</div>
+				</div>
+				<div class="flex-1 text-end text-xl w-1/6">
+						<a href="#" class="transition duration-200 ease-in-out px-8 py-2 bg-violet2 text-white text-violet-900 rounded-md hover:bg-white hover:text-violet2 hover:border-0 shadow-xl">LOGIN</a>
+				</div>
+			</div>
+		</nav>
+	</footer>
+</body>
+</html>
